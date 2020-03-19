@@ -1,0 +1,26 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "Adapt project to deploy DineForward",
+=======
+  "description": "Adapt project to deploy a node app with Postgres",
+>>>>>>> cd2d04b... Remove main in adapt/package.json to work around a bug in Adapt
+  "scripts": {},
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@adpt/cloud": "latest",
+    "@adpt/core": "latest",
+    "@adpt/utils": "latest",
+    "@types/dotenv": "^6.1.1",
+    "@types/fs-extra": "^5.0.4",
+    "@types/lodash": "^4.14.112",
+    "@types/node": "^8.10.20",
+    "dotenv": "^8.1.0",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.11",
+    "source-map-support": "^0.5.5",
+    "typescript": "^3.6"
+  }
+}
