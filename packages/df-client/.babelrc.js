@@ -22,5 +22,8 @@ module.exports = {
       },
     ],
     ['styled-components', { ssr: true }],
+    ["@babel/plugin-transform-react-jsx", {
+      pragmaFrag: 'React.Fragment',
+    }],
   ],
 };
